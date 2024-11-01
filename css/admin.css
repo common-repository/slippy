@@ -1,0 +1,47 @@
+#dashboard_right_now .slipnote-count a::before {
+    content: url('data:image/svg+xml; utf8, <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 512 512" xml:space="preserve" fill="%23606a73"><path d="M376 422v81.226L457.226 422z"/><path d="M451 60H256v105c0 5.136-.529 10.151-1.518 15H361c8.291 0 15 6.709 15 15s-6.709 15-15 15H241c-.117 0-.212-.064-.328-.066C226.97 228.078 205.435 240 181 240c-41.353 0-75-33.647-75-75v-30c0-24.814 20.186-45 45-45 5.259 0 10.313.908 15 2.563V60h-30c0-16.538 13.462-30 30-30s30 13.462 30 30v105c0 8.276-6.724 15-15 15s-15-6.724-15-15v-30c0-8.291-6.709-15-15-15s-15 6.709-15 15v30c0 24.814 20.186 45 45 45s45-20.186 45-45V60c0-33.091-26.909-60-60-60s-60 26.909-60 60H61c-8.291 0-15 6.709-15 15v422c0 8.291 6.709 15 15 15h285V407c0-8.284 6.716-15 15-15h105V75c0-8.291-6.709-15-15-15zM301 392H151c-8.291 0-15-6.709-15-15s6.709-15 15-15h150c8.291 0 15 6.709 15 15s-6.709 15-15 15zm60-90H151c-8.291 0-15-6.709-15-15s6.709-15 15-15h210c8.291 0 15 6.709 15 15s-6.709 15-15 15z"/></svg>');
+    width: 1em;
+}
+
+tfoot .column-slipnote_note,
+th.column-slipnote_note {
+    display: none;
+}
+
+p.slipnote_note {
+    opacity: 0.5;
+}
+
+p.slipnote_note:hover {
+    opacity: 1;
+}
+
+#wp-content-editor-tools {
+    padding-top: 0;
+}
+
+#linked_notes_search {
+	margin: 6px 0 12px 0;
+	width: 100%;
+}
+
+#linked_notes p,
+#linked_notes label {
+    display: block;
+    padding: 0.5em 0;
+}
+
+#linked_notes input {
+    margin-right: 0.5em;
+}
+
+#linked_notes p {
+    text-align: center;
+    opacity: 0.5;
+}
+
+ul.ui-autocomplete li {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
